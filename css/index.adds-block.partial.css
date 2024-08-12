@@ -1,5 +1,5 @@
 .offers {
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -16,7 +16,6 @@
   background-size: cover;
   background-position: center;
   justify-content: center;
-  /* align-items: center; */
 }
 
 #brands-offer {
@@ -33,7 +32,7 @@
   }
 
   .offers__brands {
-    color: rgb(228, 87, 11);
+    color: var(--accent-orange-color);
     font-weight: 600;
   }
 }
@@ -48,9 +47,16 @@
     font-weight: 600;
     padding-top: 15px;
     padding-bottom: 15px;
+    text-align: center;
   }
 
   .accent-text-element {
-    color: rgb(228, 87, 11);
+    color: var(--accent-orange-color);
+  }
+}
+
+@media (max-width: 800px) {
+  .offers__discount {
+    width: 200px;
   }
 }

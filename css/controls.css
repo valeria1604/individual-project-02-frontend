@@ -1,15 +1,14 @@
 .header__cta,
 .offers__button {
-  padding: 12px;
   width: 150px;
+  padding: 12px;
   text-align: center;
   text-decoration: none;
-  padding-inline: 20px;
   font-weight: 600;
   border-radius: 16px;
 
-  color: rgb(228, 87, 11);
-  background-color: rgb(255, 223, 187);
+  color: var(--accent-orange-color);
+  background-color: var(--button-color);
 }
 
 #about-us-button:hover {

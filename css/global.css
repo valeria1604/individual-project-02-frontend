@@ -12,20 +12,25 @@
   --general-text-font: "Open Sans", sans-serif;
   --main-text-color: rgb(85, 76, 70);
   --general-text-color: rgb(161, 148, 139);
+  --main-theme-color: #faf4f2;
+  --button-color: rgb(255, 223, 187);
+  --accent-pink-color: #fbd6bf;
+  --accent-orange-color: #ed6435;
 }
 
-h1{
-    font-family: var(--main-text-font);
-    color: var(--main-text-color);
-    font-weight: 900;
+h1 {
+  font-family: var(--main-text-font);
+  color: var(--main-text-color);
+  font-weight: 900;
 }
 
-h2{
-    font-family: var(--main-text-font);
-    font-weight: 500;
+h2 {
+  font-family: var(--main-text-font);
+  font-weight: 500;
 }
 
-p, a{
-    font-family: var(--general-text-font);
-    color: var(--general-text-color);
+p,
+a {
+  font-family: var(--general-text-font);
+  color: var(--general-text-color);
 }
