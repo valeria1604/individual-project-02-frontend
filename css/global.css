@@ -1,11 +1,31 @@
 *,
 *::before,
-*::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-:root{
-    scroll-behavior: smooth;
+:root {
+  scroll-behavior: smooth;
+  --main-text-font: "Varela Round", sans-serif;
+  --general-text-font: "Open Sans", sans-serif;
+  --main-text-color: rgb(85, 76, 70);
+  --general-text-color: rgb(161, 148, 139);
+}
+
+h1{
+    font-family: var(--main-text-font);
+    color: var(--main-text-color);
+    font-weight: 900;
+}
+
+h2{
+    font-family: var(--main-text-font);
+    font-weight: 500;
+}
+
+p, a{
+    font-family: var(--general-text-font);
+    color: var(--general-text-color);
 }
