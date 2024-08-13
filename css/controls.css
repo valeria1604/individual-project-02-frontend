@@ -12,17 +12,17 @@
 }
 
 #about-us-button:hover {
-  color: rgb(8, 143, 148);
-  background-color: rgb(173, 224, 226);
+  color: var(--about-us-button-hover-color);
+  background-color: var(--about-us-button-hover-back-color);
 }
 
 #categories-button {
-  color: rgb(69 193 199);
-  background-color: rgb(250 244 242);
-  border: 1px solid rgb(69 193 199);
+  color: var(--categories-button-color);
+  background-color: var(--categories-button-secondary-color);
+  border: 1px solid var(--categories-button-color);
 }
 
 #categories-button:hover {
-  color: rgb(255, 255, 255);
-  background-color: rgb(69 193 199);
+  color: var(--categories-button-secondary-color);
+  background-color: var(--categories-button-color);
 }

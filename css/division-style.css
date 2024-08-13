@@ -1,0 +1,49 @@
+@media (min-width: 600px) {
+  .header__nav {
+    flex-direction: row;
+  }
+
+  .header__menu {
+    flex-direction: row;
+  }
+
+  .header__link {
+    margin: 0 0.5rem;
+  }
+
+  .products__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .products__list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .products__list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 700px) {
+  .header__banner {
+    background-image: url(../img/cover.png);
+  }
+}
+
+@media (min-width: 768px) {
+  .offers {
+    grid-template-columns: 1fr 1fr; /* Two columns layout for wider screens */
+  }
+}
+
+@media (max-width: 780px) {
+  .header__banner {
+    background-image: url(../img/cover2.png);
+    align-items: center;
+    text-align: center;
+  }
+}
