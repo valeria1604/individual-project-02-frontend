@@ -32,6 +32,37 @@
   .header__banner {
     background-image: url(../img/cover.png);
   }
+
+  .pet-care-block {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .pet-care-block__img {
+    width: 50%;
+  }
+
+  .pet-care__text {
+    padding-top: 0;
+    padding-left: 2rem;
+    width: 50%;
+  }
+}
+
+@media (max-width: 700px) {
+  .pet-care-block {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pet-care-block__img {
+    width: 100%;
+  }
+
+  .pet-care__text {
+    padding-top: 0;
+    width: 100%;
+  }
 }
 
 @media (min-width: 768px) {

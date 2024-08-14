@@ -1,38 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pet Store</title>
-    <link rel="stylesheet" href="css/index.css" />
-    <script
-      src="https://unpkg.com/htmx.org@1.9.10"
-      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
-      crossorigin="anonymous"
-    ></script>
-  </head>
 
-  <body>
-    <header
-      data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="index.header.partial.html"
-    ></header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pet Store</title>
+  <link rel="stylesheet" href="css/index.css" />
+  <script src="https://unpkg.com/htmx.org@1.9.10"
+    integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+    crossorigin="anonymous"></script>
+</head>
 
-    <main>
-      <section
-        data-hx-trigger="load"
-        data-hx-swap="outerHTML"
-        data-hx-get="index.adds-block.partial.html"
-      ></section>
+<body>
+  <header data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.header.partial.html"></header>
 
-      <section
-        data-hx-trigger="load"
-        data-hx-swap="outerHTML"
-        data-hx-get="index.carousel-block.partial.html"
-      ></section>
-    </main>
+  <main>
+    <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.adds-block.partial.html"></section>
 
-    <footer></footer>
-  </body>
+    <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.carousel-block.partial.html"></section>
+
+    <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.intro-block.partial.html"></section>-
+
+  </main>
+
+  <footer></footer>
+</body>
+
 </html>

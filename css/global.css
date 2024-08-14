@@ -42,7 +42,10 @@ h2 {
 }
 
 p,
-a {
+a,
+ul {
   font-family: var(--general-text-font);
   color: var(--general-text-color);
+  list-style-type: none;
 }
+
