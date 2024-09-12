@@ -1,0 +1,28 @@
+[
+  {
+    "id": "1",
+    "title": "DORA Metal brush",
+    "image": "img/brush.png",
+    "price": 20.2
+  },
+
+  {
+    "id": "2",
+    "title": "Kitten's heaven set",
+    "image": "img/toys.png",
+    "price": 20.0
+  },
+
+  {
+    "id": "3",
+    "title": "OPTY Pet Carrier",
+    "image": "img/basket.png",
+    "price": 20.0
+  },
+  {
+    "id": "4",
+    "title": "AGA Rope Toy",
+    "image": "img/toys2.png",
+    "price": 20.0
+  }
+]

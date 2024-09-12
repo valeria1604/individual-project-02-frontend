@@ -11,6 +11,11 @@
   background-color: var(--button-color);
 }
 
+.offers__button:hover{
+  color: var(--about-us-button-hover-color);
+  background-color: var(--about-us-button-hover-back-color);
+}
+
 #about-us-button:hover {
   color: var(--about-us-button-hover-color);
   background-color: var(--about-us-button-hover-back-color);
@@ -25,4 +30,20 @@
 #categories-button:hover {
   color: var(--categories-button-secondary-color);
   background-color: var(--categories-button-color);
+}
+
+.buyable_products__button{
+  width: 150px;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 30px;
+  color: var(--about-us-button-hover-color);
+  background-color: var(--about-us-button-hover-back-color);
+}
+
+.buyable_products__button:hover{
+  color: var(--accent-orange-color);
+  background-color: var(--button-color);
 }
