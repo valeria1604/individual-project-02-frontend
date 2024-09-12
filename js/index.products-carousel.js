@@ -1,9 +1,7 @@
-// Завантажуємо продукти з JSON
 const response = await fetch("api/products.json");
 const products = await response.json();
 
 function generateSlides(products) {
-    // Масив для HTML слайдів
     const slides = products.map(product => `
         <div class="product-slide">
             <article class="buyable_products__card">
@@ -48,15 +46,12 @@ function prevSlide() {
     renderSlide();
 }
 
-// Ініціалізуємо карусель
 renderSlide();
 
-// Кнопки навігації
 const btnNext = document.querySelector('.product-carousel__btn-next');
 btnNext.addEventListener('click', nextSlide);
 
 const btnPrev = document.querySelector('.product-carousel__btn-prev');
 btnPrev.addEventListener('click', prevSlide);
 
-// Оновлюємо слайди при зміні розміру вікна
 window.addEventListener('resize', renderSlide);

@@ -32,7 +32,7 @@
   background-color: var(--categories-button-color);
 }
 
-.buyable_products__button{
+.buyable_products__button, .timer__cta{
   width: 150px;
   padding: 12px;
   text-align: center;
@@ -46,4 +46,41 @@
 .buyable_products__button:hover{
   color: var(--accent-orange-color);
   background-color: var(--button-color);
+}
+
+#lol{
+  background-color: var(--accent-pink-color);
+  border: none;
+}
+
+#lol:hover{
+  background-color: var(--accent-orange-color);
+  border: none;
+}
+
+.product-carousel__btn-prev {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url("../img/left-arrow.svg") center center no-repeat;
+  background-size: 26px 20px;
+  opacity: 0.6;
+  border: none;
+  transition: opacity 0.3s ease;
+}
+
+.product-carousel__btn-next {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url("../img/right-arrow.svg") center center no-repeat;
+  background-size: 26px 20px;
+  opacity: 0.6;
+  border: none;
+  transition: opacity 0.3s ease;
+}
+
+.product-carousel__btn-prev:hover,
+.product-carousel__btn-next:hover {
+  opacity: 1; 
 }
