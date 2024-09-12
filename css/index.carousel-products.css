@@ -1,0 +1,43 @@
+.product-carousel {
+  display: grid;
+  margin-top: 30px;
+  grid-template-columns: 100px 1fr 100px;
+  min-height: 300px;
+  align-items: center;
+  justify-items: center;
+}
+
+.product-carousel__slides {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.product-carousel__btn-prev {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url("../img/left-arrow.svg") center center no-repeat;
+  background-size: 26px 20px;
+  opacity: 0.6;
+  border: none;
+  transition: opacity 0.3s ease;
+}
+
+.product-carousel__btn-next {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url("../img/right-arrow.svg") center center no-repeat;
+  background-size: 26px 20px;
+  opacity: 0.6;
+  border: none;
+  transition: opacity 0.3s ease;
+}
+
+.product-carousel__btn-prev:hover,
+.product-carousel__btn-next:hover {
+  opacity: 1; 
+}

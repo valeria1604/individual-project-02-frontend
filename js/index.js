@@ -1,5 +1,5 @@
 function init() {
-    import('./index.products-block.js');
+    import('./index.products-carousel.js');
 }
 
 const totalPartials = document.querySelectorAll('[hx-trigger="load"], [data-hx-trigger="load"]').length;

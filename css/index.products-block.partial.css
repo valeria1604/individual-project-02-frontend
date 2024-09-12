@@ -5,12 +5,6 @@
   padding: 2rem;
 }
 
-.buyable_products__list {
-  display: grid;
-  gap: 1rem;
-  margin-top: 2rem;
-}
-
 .buyable_products__card {
   display: flex;
   flex-direction: column;
